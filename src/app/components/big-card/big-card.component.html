@@ -1,11 +1,11 @@
-<div class="container">
-    <div class="photo">
+<div class="container__bigCard">
+    <div class="photo__bigCard">
         <img src="{{ photoCover }}" alt="imagem ilustrativa">
     </div>
-    <div class="title">
+    <div class="title__bigCard">
         <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
     </div>
-    <div class="description">
+    <div class="description__bigCard">
         <p><a [routerLink]="['content', id]">{{ cardDescription }}</a></p>
     </div>
 </div>

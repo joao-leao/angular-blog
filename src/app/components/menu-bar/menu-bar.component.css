@@ -1,11 +1,11 @@
 
 
-.container > ul{
+.container__menuBar > ul{
     display: flex;
     flex-direction: row;
 }
 
-.container > ul > li{
+.container__menuBar > ul > li{
     margin-right: 20px;
     list-style: none;
 }

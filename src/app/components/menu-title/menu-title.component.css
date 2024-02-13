@@ -1,7 +1,5 @@
-.container{
-    color: white;
-}
-.container > h1{
+
+.container__menuTitle > h1{
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 180px;
@@ -9,7 +7,8 @@
     display: flex;
     justify-content: center;
 }
-.container >hr{
+.container__menuTitle > hr{
+    border-color: #ffffff1f;
     margin-top: 20px;
     margin-bottom: 5px;
 }

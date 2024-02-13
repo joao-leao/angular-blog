@@ -1,4 +1,4 @@
-.container{
+.container__smallCard{
     /* border: solid white 1px; */
 
     width:900px;
@@ -6,23 +6,26 @@
    
 }
 
-.container__content{
+.container__content_smallCard{
     display: flex;
     flex-direction: row;
 }
 
-.photo > img{
+.photo__smallCard > img{
     width: 300px;
     min-width: 300px;
     margin-right: 30px;
 }
 
-.title{
+.title__smallCard{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container__separator{
+.container__separator__smallCard{
     margin-top: 10px;
+}
+.container__separator__smallCard > hr{
+    border-color: #ffffff1f;
 }
